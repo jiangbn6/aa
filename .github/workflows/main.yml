@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4
         with:
           repository: immortalwrt/immortalwrt  # 直接拉取官方仓库（避免Fork同步问题）
-          ref: immortalwrt-23.05.6  # 稳定分支，适配性最佳
+          ref: immortalwrt-23.05  # 稳定分支，适配性最佳
           fetch-depth: 0  # 拉取完整仓库数据
 
       # 步骤3：更新依赖包
