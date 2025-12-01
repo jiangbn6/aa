@@ -61,6 +61,6 @@ jobs:
       - name: 上传固件
         uses: actions/upload-artifact@v4
         with:
-          name: 飞牛NAS适配固件
+          name: nasopoenwrt
           path: bin/targets/x86/64/  # 固件输出目录
 
